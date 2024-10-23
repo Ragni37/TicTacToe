@@ -47,7 +47,8 @@ nav li{
 }
 
 .imgbox img{
-    display: none;
+    width : 0;
+    transition : width is ease-in-out;
 }
 
 .br-0{
@@ -61,4 +62,14 @@ nav li{
 }
 .bb-0{
     border-bottom: 0;
+}
+
+#reset{
+    margin: 0 23px;
+    padding: 6px 14px;
+    background: #990499;
+    cursor: pointer;
+    font-family: 'sans-serif';
+    font-size: 30px;
+    font-weight: bolder;
 }
